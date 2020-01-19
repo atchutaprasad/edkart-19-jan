@@ -1,0 +1,237 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <style>
+        * {
+            box-sizing: border-box;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            font-kerning: auto;
+            line-height: 22px;
+        }
+        
+        html {
+            font-family: sans-serif;
+            -webkit-text-size-adjust: 100%;
+        }
+        
+        body {
+            margin: 0px;
+            padding: 0px;
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: #c2c2c2;
+        }
+        
+        b {
+            color: #3D3E47;
+        }
+        
+        a {
+            color: #c2c2c2;
+            text-decoration: none;
+        }
+        
+        body {
+            font-size: 14px;
+            font-family: sans-serif, Tahoma, Verdana;
+            background: url(/images/wallpaper.png) repeat;
+            color: #000000;
+            text-align: center;
+        }
+        
+        .blueclr {
+            color: #08AAE0
+        }
+        
+        .smallfont {
+            font-size: 0.8em;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+        
+        #wrapper {
+            width: 700px;
+            text-align: left;
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #FFFFFF;
+        }
+        
+        h1 {
+            font-size: 2.2em;
+        }
+        
+        h2 {
+            font-size: 2.0em;
+        }
+        
+        h3 {
+            font-size: 1.8em;
+        }
+        
+        h4 {
+            font-size: 1.6em;
+        }
+        
+        h5 {
+            font-size: 1.4em;
+        }
+        
+        input.text {
+            padding: 3px;
+            border: 1px solid #999999;
+        }
+        
+        table {
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+        
+        td {
+            text-align: left;
+            font-weight: normal;
+        }
+        
+        .primarybtn,
+        .secondarybtn {
+            font-size: 14px;
+            color: #fff;
+            background: #67d88d;
+            padding: 10px 20px;
+            display: inline-block;
+            font-weight: 700;
+            border-radius: 8px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        
+        .secondarybtn {
+            background: #707070;
+            color: #ffffff;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="wrapper">
+        <table class="header" width="100%" cellspacing="0" cellpadding="0">
+            <tr>
+                <td valign="top" width="40%">
+
+                    <img src="data:image/png;base64,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">
+
+                </td>
+                <td width="70%">
+                    <div style="float:right;">
+                        <p class="smallfont"> <a href="#">Your Orders</a> <span style="color: #c2c2c2;"> | </span> <a href="#">Your Account</a> <span style="color: #c2c2c2;"> | </span> <a href="#">edqart.com</a> </p>
+                        <p>Shopping Confirmation</p>
+                        <p class="smallfont">Order #<span class="blueclr">402-8994223-5267546                         </span></p>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="padding-top: 20px;padding-bottom: 10px;">
+                    <b>Hello Priya Ram Chandran,</b>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding-bottom: 20px;">
+                    We thought you’d like to know that we’ve dispatched your item(s). Your order is on the way. If you need to return an item from this shipment or manage other orders, please visit Your Orders on edqart.
+                </td>
+            </tr>
+
+            <tr style="border-top:1px solid #707070; background-color: #F2F3F7;">
+                <td style="padding:20px;">
+                    <div>
+                        <div style="width:100%">
+                            <b>Arriving:</b>
+                            <p style="color: #FE9D2B;">Monday, August 21</p>
+                        </div>
+                        <div style="width:100%">
+
+                            <button type="button" class="primarybtn">Track your Product</button><br>
+                            <button type="button" class="secondarybtn">View or print invoice</button>
+
+
+                        </div>
+                    </div>
+                </td>
+                <td style="padding:20px;">
+                    <div style="float:right;">
+                        <p style="padding-bottom: 10px;">Your package was sent to:</p>
+                        <b>Priya Ramchandran<br>
+h.no 2-11-38, annapurna colony<br>
+Hyderabad, Telangana, 500039<br>
+India</b>
+                    </div>
+                </td>
+            </tr>
+
+            <tr style="border-bottom:1px solid #707070;">
+                <td colspan="2">
+                    <p style="margin-top:20px;margin-bottom:20px;">Your package is being shipped by Edqart Transportation Services and the tracking number is 216204911718. Please note that a signature may be required for the delivery of the package.</p>
+                </td>
+            </tr>
+
+            <tr style="border-bottom:1px solid #c2c2c2;">
+                <td style="padding-top:20px;padding-bottom:20px;">
+                    <div style="width:20%;float:left;">
+                        <img src="images/shirt.png" style="width:100%" alt="">
+                    </div>
+                    <div style="width:50%;float:left;margin-left: 20px;">
+                        <b>Shirt – Santa Maria Wear Kids Cotton Chikan Designer Kurta</b>
+                        <p class="smallfont">Sold by Edqart.com</p>
+                    </div>
+
+                </td>
+                <td>
+                    <b style="float: right;"> RS. 999.00</b>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="border-bottom: 1px solid #AFACAA;">
+                    <div style="float: right; padding-top: 20px;padding-bottom: 20px;">
+                        Item Subtotal: Rs.999.00 <br> Shipping & Handling: Rs.0.00 <br>
+                        <b>Shipment Total: Rs.990.00</b>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding:20px;">
+                    <p style="text-align: center;">If you need further assistance with your order, please visit Customer Service.<br> We hope to see you again soon!<br> <b>Edqart.com</b>
+                    </p>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2" class="smallfont" style="color:#707070;padding:20px;">
+                    <p style="text-align: center;">This email was sent from a notification-only address that cannot accept incoming email. Please do not reply to this message.
+                    </p>
+                </td>
+            </tr>
+
+
+
+
+        </table>
+
+
+
+
+
+
+    </div>
+</body>
+
+</html>

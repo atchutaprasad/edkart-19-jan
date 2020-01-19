@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <defs>
+    <clipPath id="clip-EdQart_Logo">
+      <rect width="1920" height="1080"/>
+    </clipPath>
+  </defs>
+  <g id="EdQart_Logo" data-name="EdQart Logo" clip-path="url(#clip-EdQart_Logo)">
+    <rect width="1920" height="1080" fill="#fff"/>
+    <g id="Group_8458" data-name="Group 8458" transform="translate(298.632 -31.27)">
+      <g id="Group_8455" data-name="Group 8455" transform="translate(99.368 226.27)">
+        <g id="Ed_art" data-name="Ed art" transform="translate(0 0)" style="isolation: isolate">
+          <text id="Ed_art-2" data-name="Ed art" transform="translate(0 513)" fill="#002a44" font-size="620" font-family="TwCenMT-Condensed, Tw Cen MT Condensed" style="isolation: isolate"><tspan x="0" y="0">Ed art</tspan></text>
+        </g>
+        <path id="Path_4118" data-name="Path 4118" d="M412.035,480.775q0-131.289-25.713-170.576T303.5,270.907a154.9,154.9,0,0,0-37.318,4.178v55.658c8.122-10.577,19.565-15.983,34.485-15.983q28.4,0,41.013,27.449T354.3,486.055q0,98.413-9.4,118.607L316.441,564.64,285.31,587.279l36.982,49.791a65.833,65.833,0,0,1-24.661,4.548q-19.414,0-31.448-14.962v55.587a136.665,136.665,0,0,0,30.593,3.228q21.1,0,55.464-8.078l29.2,39.309,29.98-22.091-30.124-41.218Q412.028,619.313,412.035,480.775Z" transform="translate(171.402 -154.27)" fill="#f5861e"/>
+      </g>
+    </g>
+  </g>
+</svg>
