@@ -10,6 +10,7 @@ $(document).ready(function() {
     });
     //$('.accordianheader:first').click();
     //$('#order-status-table').hide();
+
     $('#order-status-menu').hide();
 
     $('.jQorderstatus').click(function(e) {
@@ -320,6 +321,29 @@ $(document).ready(function() {
 
 
     $('#prodDescTab').tabCollapse();
+
+
+    /* changes - feb 08 */
+    $('body').click(function(event) {
+        if ($(event.target).parents('#menuToggle').length === 0) {
+            $('#menuToggle input:checkbox').prop('checked', false)
+        }
+
+    });
+
+    function productlist() {
+        if ($(window).width() <= 990) { //760
+            $(".products-wrap").addClass("listview");
+        }
+    }
+    productlist();
+    $(window).resize(function() {
+        productlist();
+    });
+
+
+
+
 
 
 
